@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: gray;
+}
+.one{
+    padding: 10px;
+}
+.container
+{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    border: 10px solid red;
+    box-shadow: 10px;
+    position: absolute;
+    top: 5px;
+    left: 500px;
+    box-shadow: 2px 5px rgb(174, 0, 105);
+}
+.container{
+    text-align: center;
+    font-style: italic;
+    color: rgb(160, 0, 72);
+    text-shadow: 0px 2px red;
+}
+/* .container1
+{
+    border: 10px;
+} */
+.container1{
+    height: 700px;
+    width: 95%;
+    padding: 10px;
+    border: 10px solid green;
+    /* display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 250px;
+    left: 10px; */
+    /* justify-content: flex-end; */
+}
+.containera
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 250px;
+    left: 10px;
+}
+.containerb
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 250px;
+    left: 10px;  
+}
+.container11
+{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border: 10px solid red;
+    border-radius: 10px;
+    box-shadow: 10px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    box-shadow: 2px 5px rgb(174, 0, 105)
+}
+.para
+{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    color: blueviolet;
+    font-weight: bold;
+    text-shadow: 0px 1.5px blue;
+}
+.container12
+{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    background-image: url(./download.jpeg);
+    position: relative;
+    top: 10px;
+    left: 700px;
+    border: 10px solid red;
+    box-shadow: 2px 5px rgb(174, 0, 105)
+}
+.container13
+{
+    height: 80px;
+    width: 400px;
+    background-color: rgb(94, 164, 3);
+    border-radius: 10px;
+    position: fixed;
+    z-index: 2;
+    top: 500px;
+    left: 500px;
+    border: 10px solid red;
+    box-shadow: 2px 5px rgb(174, 0, 105)
+}
+.para1
+{
+    color: rgb(133, 0, 0);
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-style: italic;
+}
+.para11
+{
+    color: rgb(133, 0, 0);
+    font-size: 20px;
+    padding-left: 40px;
+    /* padding-top: 20px; */
+    font-style: italic;
+}
+.para12
+{
+    color: rgb(133, 0, 0);
+    font-size: 15px;
+    padding-left: 40px;
+    padding-top: 10px;
+    font-style: italic;
+}
+.para13
+{
+    color: rgb(133, 0, 0);
+    font-size: 15px;
+    padding-left: 130px;
+    /* padding-top: 10px; */
+    font-style: italic;
+}
+.container14
+{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border: 10px solid red;
+    border-radius: 10px;
+    box-shadow: 10px;
+    flex-wrap: wrap-reverse;
+    position: relative;
+    top: 400px;
+    left: 10px;
+    box-shadow: 2px 5px rgb(174, 0, 105)
+}
+.container15
+{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    border: 10px solid red;
+    box-shadow: 10px;
+    position: relative;
+    top: 400px;
+    left: 700px;
+    box-shadow: 2px 5px rgb(174, 0, 105)
+}
+.para2
+{
+    font-size: 20px;
+    text-align: center;
+    /* padding: 10px; */
+    color: blueviolet;
+    font-weight: bold;
+    text-shadow: 0px 1.5px blue;
+}
+.para21
+{
+    font-size: 20px;
+    text-align: center;
+    /* padding: 10px; */
+    color: blueviolet;
+    font-weight: bold;
+    text-shadow: 0px 1.5px blue;
+}
+.para31
+{
+    font-size: 10px;
+    /* text-align: center; */
+    /* padding: 10px; */
+    color: blueviolet;
+    font-weight: bold;
+    text-shadow: 0px 1.5px blue;
+}
+.btn
+{
+    background-color: brown;
+    border-radius: 10px;
+}
+.store
+{
+    height: 500px;
+    width: 50%;
+    border: 10px solid rgb(124, 4, 154);
+    margin: 20px;
+    position: absolute;
+    left: 25%;
+}
+.store1
+{
+    background-color: green;
+    height: 70px;
+    width: 100%;
+}
+.store11{
+    text-align: center;
+    padding: 10px;
+}
+.store2
+{
+    border: 5px solid green;
+    background-color: rgb(255, 238, 89);
+    display: flex;
+}
+.store21
+{
+    border: 5px solid green;
+    height: 200px;
+    width: 50%;
+}
+.store22
+{
+   border: 5px solid green;
+    height: 200px;
+    width: 50%;
+}
+.store3
+{
+  border: 5px solid green;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(255, 238, 89); 
+} 
+.para4
+{
+    text-align: center;
+    padding: 10px;
+}
+.para41
+{
+    text-align: center;
+    padding: 5px;
+}
+.para42{
+    text-align: center;
+}
+.para51{
+    text-align: center;
+    padding: 10px;
+}
